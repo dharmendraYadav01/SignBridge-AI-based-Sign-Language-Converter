@@ -1,0 +1,1 @@
+SignBridge is an AI-powered system that translates sign language into text and speech in real time. It captures video, extracts hand and upper-body landmarks using MediaPipe, and processes them with CNN and LSTM/Transformer models. NLP forms sentences, while TTS generates speech, ensuring accurate and low-latency performance.
