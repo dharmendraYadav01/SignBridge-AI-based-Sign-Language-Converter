@@ -1,1 +1,37 @@
-SignBridge is an AI-powered system that translates sign language into text and speech in real time. It captures video, extracts hand and upper-body landmarks using MediaPipe, and processes them with CNN and LSTM/Transformer models. NLP forms sentences, while TTS generates speech, ensuring accurate and low-latency performance.
+# SignBridgeAI – Sign Language to Speech Translator
+
+## 🚀 Overview
+
+SignBridgeAI is a deep learning-based system that translates sign language gestures into meaningful text and speech in real-time using computer vision and NLP techniques.
+
+## ✨ Features
+
+* Real-time hand & pose detection using MediaPipe
+* Deep learning-based gesture recognition
+* Continuous gesture-to-sentence conversion
+* Speech output integration
+* Optimized for speed and real-world usability
+
+## 🛠️ Tech Stack
+
+* Python
+* TensorFlow
+* OpenCV
+* MediaPipe
+* NLP (NLTK, SpaCy)
+
+
+## ⚙️ Installation
+
+```bash
+git clone <repo-link>
+cd project
+pip install -r requirements.txt
+python main.py
+```
+
+## 📌 Future Improvements
+
+* Improve model accuracy
+* Add multilingual support
+* Deploy as web application
